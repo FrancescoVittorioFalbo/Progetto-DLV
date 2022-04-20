@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="progettoDLV.ProgettoGui">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="7" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="874" height="834"/>
+    </constraints>
+    <properties>
+      <foreground color="-4473925"/>
+    </properties>
+    <border type="line"/>
+    <children>
+      <component id="48c3e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Insieme B"/>
+        </properties>
+      </component>
+      <component id="e2c81" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Insieme A"/>
+        </properties>
+      </component>
+      <component id="6d231" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Risultato"/>
+        </properties>
+      </component>
+      <vspacer id="ad767">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <scrollpane id="42106">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="400" height="200"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="18dee" class="javax.swing.JTextArea" binding="RISULTATO">
+            <constraints/>
+            <properties>
+              <font size="16"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="d9dbb">
+        <constraints>
+          <grid row="1" column="0" row-span="4" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="400" height="200"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="fa21d" class="javax.swing.JTextArea" binding="INSIEME_A">
+            <constraints/>
+            <properties>
+              <font size="16"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <scrollpane id="4c289">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="400" height="200"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="51bd5" class="javax.swing.JTextArea" binding="INSIEME_B">
+            <constraints/>
+            <properties>
+              <font size="16"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="41c4c" class="javax.swing.JCheckBox" binding="SHOWSOLUTIONIN3CheckBox">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="SHOW SOLUTION IN 3-CNF"/>
+        </properties>
+      </component>
+      <component id="4363c" class="javax.swing.JButton" binding="CALCOLAButton">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="CALCOLA"/>
+        </properties>
+      </component>
+      <component id="2bb7f" class="javax.swing.JButton" binding="NEWButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="NEW"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
